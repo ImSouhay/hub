@@ -2,7 +2,7 @@
   <title>requires: GooeyLibs</title>
   <g shape-rendering="crispEdges">
     <rect width="120" height="40" fill="#555" rx="10" ry="10"/>
-    <rect x="120" width="1200" height="40" fill="#15ED46 rx="10" ry="10"/>
+    <rect x="120" width="1200" height="40" fill="#15ED46" rx="10" ry="10"/>
     <rect x="50" width="120" height="40" fill="#555"/>
     <rect x="120" width="50" height="40" fill="#15ED46"/>
   </g>
