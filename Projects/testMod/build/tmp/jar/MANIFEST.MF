@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: testmod
+Specification-Vendor: 
+Specification-Version: 1
+Implementation-Title: testMod
+Implementation-Version: org.ImSouhay.limpactorvaultsync
+Implementation-Vendor: 
+Implementation-Timestamp: 2024-03-24T14:27:38+0000
+MixinConfigs: mixin.testmod.json
+

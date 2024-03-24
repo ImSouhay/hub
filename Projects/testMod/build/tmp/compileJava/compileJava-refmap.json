@@ -1,0 +1,36 @@
+{
+  "mappings": {
+    "eu/pb4/sgui/mixin/ServerPlayNetworkHandlerMixin": {
+      "handleContainerClose": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_7951_(Lnet/minecraft/network/protocol/game/ServerboundContainerClosePacket;)V",
+      "updateSignText": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_9922_(Lnet/minecraft/network/protocol/game/ServerboundSignUpdatePacket;Ljava/util/List;)V"
+    },
+    "eu/pb4/sgui/mixin/SignBlockEntityAccessor": {
+      "frontText": "f_276598_:Lnet/minecraft/world/level/block/entity/SignText;",
+      "backText": "f_276476_:Lnet/minecraft/world/level/block/entity/SignText;"
+    },
+    "eu/pb4/sgui/mixin/ServerPlayerEntityMixin": {
+      "openMenu": "Lnet/minecraft/server/level/ServerPlayer;m_5893_(Lnet/minecraft/world/MenuProvider;)Ljava/util/OptionalInt;",
+      "Lnet/minecraft/server/level/ServerPlayer;closeContainer()V": "Lnet/minecraft/server/level/ServerPlayer;m_6915_()V",
+      "die": "Lnet/minecraft/server/level/ServerPlayer;m_6667_(Lnet/minecraft/world/damagesource/DamageSource;)V",
+      "closeContainer": "Lnet/minecraft/server/level/ServerPlayer;m_6915_()V"
+    }
+  },
+  "data": {
+    "searge": {
+      "eu/pb4/sgui/mixin/ServerPlayNetworkHandlerMixin": {
+        "handleContainerClose": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_7951_(Lnet/minecraft/network/protocol/game/ServerboundContainerClosePacket;)V",
+        "updateSignText": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_9922_(Lnet/minecraft/network/protocol/game/ServerboundSignUpdatePacket;Ljava/util/List;)V"
+      },
+      "eu/pb4/sgui/mixin/SignBlockEntityAccessor": {
+        "frontText": "f_276598_:Lnet/minecraft/world/level/block/entity/SignText;",
+        "backText": "f_276476_:Lnet/minecraft/world/level/block/entity/SignText;"
+      },
+      "eu/pb4/sgui/mixin/ServerPlayerEntityMixin": {
+        "openMenu": "Lnet/minecraft/server/level/ServerPlayer;m_5893_(Lnet/minecraft/world/MenuProvider;)Ljava/util/OptionalInt;",
+        "Lnet/minecraft/server/level/ServerPlayer;closeContainer()V": "Lnet/minecraft/server/level/ServerPlayer;m_6915_()V",
+        "die": "Lnet/minecraft/server/level/ServerPlayer;m_6667_(Lnet/minecraft/world/damagesource/DamageSource;)V",
+        "closeContainer": "Lnet/minecraft/server/level/ServerPlayer;m_6915_()V"
+      }
+    }
+  }
+}
