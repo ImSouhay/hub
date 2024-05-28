@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #444;
+    color: #fff;
+}
+
+.title {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.small-title {
+    font-size: 1.2em;
+    margin: 10px 0 0 0;
+    color: #ccc;
+}
+
+/* Philosopher Section Styles */
+.philosopher-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+.philosopher {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.stuff {
+    font-size: 1em;
+    margin: 10px 0 0 0;
+    color: #555;
+}
+
+/* Image Styles */
+.img {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .img {
+        width: 75%;
+    }
+
+    .philosopher-section {
+        padding: 15px;
+    }
+}
