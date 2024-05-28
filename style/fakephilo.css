@@ -76,9 +76,12 @@ header {
     text-decoration: none;
     border-radius: 5px;
     margin-bottom: 20px; /* Adjust as needed */
-  }
+    /* Centering */
+    display: block;
+    margin: 0 auto;
+}
   
-  .back-to-main:hover {
+.back-to-main:hover {
     background-color: #45a049;
-  }
+}
   
