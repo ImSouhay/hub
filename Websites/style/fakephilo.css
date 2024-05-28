@@ -1,78 +1,68 @@
 /* General Styles */
 body {
+    background-color: #f0f0f0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e0e0e0;
     color: #333;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
 }
 
+/* Header Styles */
 header {
-    width: 100%;
-    text-align: left;
-    padding-left: 20px;
-    margin-bottom: 20px;
-}
-
-#title {
-    font-size: 2.5em;
-    color: #222;
-}
-
-main {
     text-align: center;
+    padding: 20px 0;
+    background-color: #444;
+    color: #fff;
+}
+
+.title {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.small-title {
+    font-size: 1.2em;
+    margin: 10px 0 0 0;
+    color: #ccc;
+}
+
+/* Philosopher Section Styles */
+.philosopher-section {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
     padding: 20px;
-    max-width: 500px;
-    width: 100%;
+    text-align: center;
 }
 
-.content-section {
-    margin: 20px 0;
+.philosopher {
+    font-size: 1.5em;
+    margin: 0;
 }
 
-#main-text {
-    font-size: 1.1em;
-    margin-bottom: 20px;
+.stuff {
+    font-size: 1em;
+    margin: 10px 0 0 0;
     color: #555;
 }
 
-.project {
-    background-color: #fafafa;
-    padding: 15px;
-    border-radius: 8px;
-    margin-top: 20px;
-    border: 1px solid #ddd;
+/* Image Styles */
+.img {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
 }
 
-.project h4 {
-    margin: 0;
-    font-size: 1.4em;
-    color: #333;
-}
+/* Responsive Design */
+@media (max-width: 600px) {
+    .img {
+        width: 75%;
+    }
 
-.project p {
-    margin: 10px 0;
-    color: #666;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 10px;
-    background-color: #007BFF;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.button:hover {
-    background-color: #0056b3;
+    .philosopher-section {
+        padding: 15px;
+    }
 }
