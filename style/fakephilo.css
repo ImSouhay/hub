@@ -67,3 +67,18 @@ header {
         padding: 15px;
     }
 }
+
+.back-to-main {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .back-to-main:hover {
+    background-color: #45a049;
+  }
+  
